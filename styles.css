@@ -1,0 +1,184 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0A192F; /* Dark blue-black theme */
+    color: #E0E0E0; /* Light text color for contrast */
+    line-height: 1.6;
+}
+
+section {
+    height: 100vh; /* Ensure each section takes up the full viewport height */
+    overflow: auto; /* Allow scrolling within the section if needed */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    gap: 10px;  
+}
+
+/* Navigation Bar */
+#nav-bar {
+    background-color: #112240; /* Deep navy blue */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+#nav-bar ul li {
+    margin: 0 15px;
+}
+
+#nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+#nav-bar a:hover {
+    background-color: #233554; /* Slightly lighter navy */
+    text-decoration: none;
+}
+
+/* Home Section */
+#home {
+    background-image: url('/Assets/home.jpg'); /* Replace with actual path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 2.8rem;
+    color: #64ffda;
+}
+
+/* About Section */
+#about {
+    background-color: #112240;
+    padding: 60px 20px;
+
+}
+
+.about-text {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Projects Section */
+.project-container {
+    background-color: #0A192F;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.project {
+    background-color: #233554;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.project h3 {
+    color: #64ffda;
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills li {
+    background-color: #233554;
+    color: #64ffda;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contacts{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #112240;
+}
+#contacts a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+#contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Form */
+form {
+    max-width: 500px;
+    margin: auto;
+    background: #233554;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #64ffdb81;
+    color: #0A192F;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #52d6b4;
+}

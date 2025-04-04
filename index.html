@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hillary Wafula | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="#home" onclick="showSection('home')">Home</a></li>
+            <li><a href="#about" onclick="showSection('about')">About</a></li>
+            <li><a href="#education" onclick="showSection('education')">Education</a></li>
+            <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+            <li><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+            <li><a href="#blogs" onclick="showSection('blogs')">Blogs</a></li>
+            <li><a href="#contacts" onclick="showSection('contacts')">Contact</a></li>
+            <li><a href="/Assets/cv.pdf" download class="btn">Download My CV</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="active">
+        <div class="intro">
+            <h1>Hello, I'm Hillary Wafula</h1>
+            <p>Welcome to my portfolio!</p>
+            <p>Passionate Web Developer, Software Engineer, and Tech Enthusiast.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Who am I?</h3>
+                <p>Hi! I’m Hillary, a passionate web developer who loves creating functional and visually appealing web experiences.
+                   I am a second-year Computer Science student at Kirinyaga University, with a strong foundation in programming languages 
+                   like HTML, CSS, JavaScript, Python, and Java. I am eager to learn new technologies and improve my skills by building projects.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="education">
+       <h2>Education Background</h2>
+       <p><strong>2023 - Present | Kirinyaga University</strong></p>
+       <p><strong>2019 - 2022 | Butula Boys High School</strong></p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Mwea Irrigation Scheme</h3>
+            <p>A project built using HTML and CSS that highlights the Mwea Irrigation Scheme.</p>
+            <a href="https://github.com/Wiseman101/Mwea-sacco">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Number System Converter</h3>
+            <p>A calculator for number system conversions, supporting decimal, hexadecimal, binary, and octal conversions.</p>
+            <a href="https://wiseman101.github.io/Number-system-converter/">View live</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>Web Development</li>
+            <li>Database Management (SQL)</li>
+        </ul>
+    </section>
+
+    <section id="blogs">
+        <h2>My Blogs</h2>
+        <article>
+            <h3>My Journey in Web Development</h3>
+            <p>Sharing my experiences, challenges, and lessons learned in my tech journey.</p>
+            <div id="blog1">
+                <p>My journey in web development has been an exciting mix of challenges, learning, and growth. From struggling with my 
+                   first lines of HTML and CSS to building interactive projects with JavaScript, each step has shaped my skills and 
+                   passion for tech. Overcoming bugs, mastering frameworks, and working on real-world applications have all been valuable 
+                   lessons. Through this I’ve learned to share my experiences, challenges, and key takeaways to inspire and connect with 
+                   fellow developers. Above all, Collaboration is key!
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <section id="contacts">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name here" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" placeholder="Enter a short message here" required></textarea>
+                
+                <button type="submit" class="btn">Send</button>
+            </fieldset>
+        </form>
+        <p>Email: <a href="hillarywafula45@gmail.com">Send an Email</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/hillary-wafula-1675a835a/">Lets connect! on LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/Wiseman101">Follow me in GitHub</a></p>
+    </section>
+</body>
+</html>
